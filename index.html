@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <title>Zooface</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@400;700&display=swap" rel="stylesheet"> 
+  <style>
+body {
+  background-color: #F5F5DC; 
+  color: #2E8B57; 
+  font-family: 'Prompt', sans-serif; 
+}
+
+.navbar, footer {
+  background-color: #8B4513; 
+  color: #FFFFFF; 
+}
+
+.sidenav {
+  background-color: #98FB98; 
+  height: 100vh; 
+  position: fixed; 
+  top: 0;
+  bottom: 0;
+  left: 0;
+  padding-top: 20px;
+}
+
+.main-content {
+  margin-left: 16.66%; 
+}
+
+.row.content {
+  margin-left: 16.66%; 
+  padding: 0 15px;
+}
+
+.btn-success {
+  background-color: #FF8C00; 
+  border-color: #FFD700; 
+}
+
+h2, h4 {
+  color: #4682B4; /* สีหัวข้อ */
+}
+
+.label-primary {
+  background-color: #674636; 
+}
+
+.label-primary1 {
+  background-color: #E85C0D; 
+}
+.label-danger {
+  background-color: #DC143C; 
+}
+
+@media screen and (max-width: 767px) {
+  .sidenav {
+    height: auto;
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .row.content {
+    margin-left: 0;
+  }
+}
+  </style>
+</head>
+<body>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-2 sidenav">
+      <h4><img src="img/icon.jpg" alt="ไอคอนสวนสัตว์" style="width:50px;height:50px;"> ZooFace</h4>
+      <ul class="nav nav-pills nav-stacked">
+        <li class="active"><a href="#section1">หน้าหลัก</a></li>
+        <li><a href="#section2">สัตว์</a></li>
+        <li><a href="#section3">นิทรรศการ</a></li>
+        <li><a href="#section4">กิจกรรม</a></li>
+      </ul><br>
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="ค้นหาบล็อก..">
+        <span class="input-group-btn">
+          <button class="btn btn-default" type="button">
+            <span class="glyphicon glyphicon-search"></span>
+          </button>
+        </span>
+      </div>
+    </div>
+
+    <div class="col-sm-9 main-content">
+      <h4><small>โพสต์ล่าสุด</small></h4>
+      <hr>
+      <h2>ทำความรู้จักกับคาปิบาร่า</h2>
+      <h5><span class="glyphicon glyphicon-time"></span> โพสต์โดย สาวบางโพธิ์, 9 กันยายน 2024.</h5>
+      <h5><span class="label label-danger">สัตว์</span> <span class="label label-primary">คาปิบาร่า</span></h5><br>
+      <img src="img/1.jpg" class="img-responsive" alt="คาปิบาร่า" style="width:555px;"> 
+      <p><h3>คาปิบาร่าเป็นสัตว์ฟันแทะที่ใหญ่ที่สุดในโลก..</h3>.</p>
+      <br><br>
+      <p><span class="badge">5</span> ความคิดเห็น:</p><br>
+      <h4><small>โพสต์ล่าสุด</small></h4>
+      <hr>
+      <h2>เรื่องราวของสุนัขจิ้งจอก</h2>
+      <h5><span class="glyphicon glyphicon-time"></span> โพสต์โดย นายมารวย, 8 สิงหาคม 2024.</h5>
+       <h5><span class="label label-danger">สัตว์</span> <span class="label label-primary1">หมาจิ้งจอก</span></h5><br>
+      <img src="img/2.jpg" class="img-responsive" alt="สุนัขจิ้งจอก" style="width:555px;">
+      <p><h3>สุนัขจิ้งจอกเป็นสัตว์ที่มีความฉลาดและมีไหวพริบมาก...แถมน่ารักมากๆด้วยครับผม</h3></p>
+      <hr>
+
+      <h4>แสดงความคิดเห็น:</h4>
+      <form role="form">
+        <div class="form-group">
+          <textarea class="form-control" rows="3" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-success">ส่งความคิดเห็น</button>
+      </form>
+      <br><br>
+      
+      <p><span class="badge">2</span> ความคิดเห็น:</p><br>
+      
+      <div class="row">
+        <div class="col-sm-2 text-center">
+          <img src="img/4.jpg" class="img-circle" height="65" width="65" alt="Avatar">
+        </div>
+        <div class="col-sm-10">
+          <h4>มิจิ <small>2 กันยายน 2024, 05:55 น.</small></h4>
+          <p>ขนนุ่มมากไหมคะ</p>
+          <br>
+        </div>
+        <div class="col-sm-2 text-center">
+          <img src="img/3.jpg" class="img-circle" height="65" width="65" alt="Avatar">
+        </div>
+        <div class="col-sm-10">
+          <h4>สาวบ้านบ่อ <small>30 สิงหาคม 2024, 11:11 น.</small></h4>
+          <p>มีขายที่ไหนบ้างคะ</p>
+          <br>
+          <p><span class="badge">1</span> ความคิดเห็น:</p><br>
+          <div class="row">
+            <div class="col-sm-2 text-center">
+              <img src="img/5.jpg" class="img-circle" height="65" width="65" alt="Avatar">
+            </div>
+            <div class="col-xs-10">
+              <h4>นายปีโป้ <small>30 สิงหาคม 2024, 22:22 น.</small></h4>
+              <p>ผมก็ชอบสุนัขจิ้งจอกเหมือนกัน...อยากได้ไว้เลี้ยงสักตัว</p>
+              <br>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="container-fluid">
+  <p><center>Zooface@</center></p>
+</footer>
+
+</body>
+</html>
